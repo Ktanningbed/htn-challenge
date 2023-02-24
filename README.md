@@ -15,16 +15,16 @@ The Database
 The database used is SQLite3 and two tables were created: users and skills.
 
 users includes
--Unique ID
--name
--company
--email
--phone
+- Unique ID
+- name
+- company
+- email
+- phone
 
 skills includes
--User ID (references a particular users unique ID)
--skill
--rating
+- User ID (references a particular users unique ID)
+- skill
+- rating
 
 The API
 =======
