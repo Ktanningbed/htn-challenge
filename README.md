@@ -51,8 +51,13 @@ Update User's Data using their unique ID.
 
 Examples
 ```PUT localhost:5000/users/55```
+Updating phone number
 ![image](https://user-images.githubusercontent.com/58784851/220806591-8abdb73c-386c-44d9-b167-8ff2cfda846c.png)
+
+Adding a new skill
 ![image](https://user-images.githubusercontent.com/58784851/220806722-427b0e06-e6a6-405d-8482-f3bf7286f5d6.png)
+
+Updating a skill
 ![image](https://user-images.githubusercontent.com/58784851/220806759-26729bf6-1df9-4587-8ebe-32a312e0ef43.png)
 
 
