@@ -13,18 +13,7 @@ Testing was done using Postman
 The Database
 ============
 The database used is SQLite3 and two tables were created: users and skills.
-
-users includes
-- Unique ID
-- name
-- company
-- email
-- phone
-
-skills includes
-- User ID (references a particular user's unique ID)
-- skill
-- rating
+![image](https://user-images.githubusercontent.com/58784851/221295969-b96cc3bd-b258-4042-aed8-26006132fda8.png)
 
 The API
 =======
@@ -73,5 +62,8 @@ Example
 
 Possible additional improvements and features
 =
-- It would be useful for both organizers and hackers to know the different hacker teams there are. This can be done by creating a new SQL table called "teams" with its own unique ID. Each "users" table would have a new parameter called "team_id" which references a foreign key of a particular team. This way, we can make easy SQL queries in order to get team members, projects, etc.
+- It would be useful for both organizers and hackers to know about the different hacker teams there are. This can be done by creating a new SQL table called "teams" with its own unique ID. Each "users" row in the table would have a new column called "team_id" which references a foreign key of a particular team. This way, we can make easy SQL queries in order to get team members, projects, etc.
 - There should also be an "events" table in the database. This way, hackers can make requests to possible events being held by the hackathon. In order to check which events a particular user has attended, we can implement an "events" table similar to the "skills" table I created in the challenge. Each row in "events" will include information like the user_id it refers to and the event_name they attended. Similarly to the "skills" api, we can easily get a list of events and aggregate information about them. This will let us know how many people are attending a particular event and gauge its success.
+
+![image](https://user-images.githubusercontent.com/58784851/221296627-00555138-f49b-40ec-858c-f22e7f869ca8.png)
+
