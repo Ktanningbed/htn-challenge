@@ -3,10 +3,10 @@
 Summary
 ========
 This is a RESTful API run by a Flask Server that deals with data about users participating in a hackathon. The following are the main functionalities of the API
--Getting data about all users participating in the hackathon
--Getting data about a specific user participating in the hackathon
--Update the information about a specific user
--Get a summary of all the skills that the users have
+- Getting data about all users participating in the hackathon
+- Getting data about a specific user participating in the hackathon
+- Update the information about a specific user
+- Get a summary of all the skills that the users have
 
 Testing was done using Postman
 
