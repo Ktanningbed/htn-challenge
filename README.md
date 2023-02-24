@@ -22,7 +22,7 @@ users includes
 - phone
 
 skills includes
-- User ID (references a particular users unique ID)
+- User ID (references a particular user's unique ID)
 - skill
 - rating
 
